@@ -1,0 +1,23 @@
+{
+  "name": "chatgpt-visible-trace-exporter",
+  "version": "0.1.0",
+  "description": "Bookmarklet local pour exporter en Markdown la trace visible et les sources affichées dans l’interface web de ChatGPT.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "chatgpt",
+    "bookmarklet",
+    "sources",
+    "markdown",
+    "export",
+    "visible-trace"
+  ],
+  "author": "JuJu78",
+  "license": "MIT",
+  "devDependencies": {
+    "terser": "^5.31.0"
+  }
+}
